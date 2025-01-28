@@ -1,4 +1,4 @@
-// File: /Users/cosme/Documents/CursoNext_2025/oficina/LandPageOficina/app/page.js
+// File: C:\Users\10862\Documents\GitHub\LandPageOficina\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
