@@ -24,7 +24,7 @@ export default function Hero() {
                 <span className="font-semibold text-sm sm:text-xl text-slate-200 bg-[#121212] p-2 rounded">
                     Qualidade para seu carro
                 </span>
-                <a href="#" className='bg-green-700 flex  space-x-2 p-2 rounded items-center mt-2' ><FaWhatsapp size={20} className='text-white' />   <span className='text-sm text-white sm:text-xl'>Fale com nosso atendente</span></a>
+                <a href="#" className='hover:opacity-80 bg-green-700 flex  space-x-2 p-2 rounded items-center mt-2' ><FaWhatsapp size={20} className='text-white' />   <span className='text-sm text-white sm:text-xl'>Fale com nosso atendente</span></a>
             </div>
 
 
