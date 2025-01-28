@@ -92,6 +92,7 @@ const IMCCalculadora = () => {
         >
           Limpar Dados
         </button>
+        <span className="text-white text-end">Senac Lavras</span>
       </form>
 
       {result && (
@@ -102,6 +103,7 @@ const IMCCalculadora = () => {
           <p className="text-lg text-slate-200">{result.classification}</p>
         </div>
       )}
+
     </div>
   );
 };
