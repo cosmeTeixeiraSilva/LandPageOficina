@@ -61,7 +61,7 @@ const IMCCalculadora = () => {
             value={weight}
             ref={weightInputRef}
             onChange={(e) => setWeight(e.target.value)}
-            className="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 h-10 text-xl"
+            className="mt-1 px-2 block w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 h-10 text-xl text-orange-500 font-semibold"
             placeholder="Ex: 70"
           />
         </div>
@@ -75,7 +75,7 @@ const IMCCalculadora = () => {
             id="height"
             value={height}
             onChange={(e) => setHeight(e.target.value)}
-            className="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 h-10 text-xl"
+            className="mt-1 px-2 block w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 h-10 text-xl text-orange-500 font-semibold"
             placeholder="Ex: 1.75"
           />
         </div>
