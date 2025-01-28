@@ -9,9 +9,9 @@ export default function Header() {
             </div>
 
             <nav className='text-gray-600 flex space-x-8 text-[0.6rem] sm:text-sm p-3 sm:p-0'>
-                <span className='hover:scale-150 hover:text-orange-400'>HOME</span>
-                <span className='hover:scale-150 hover:text-orange-400'>SERVIÇOS</span>
-                <span className='hover:scale-150 hover:text-orange-400'>CONTATOS</span>
+                <span className='hover:scale-125 hover:text-orange-400'>HOME</span>
+                <span className='hover:scale-125 hover:text-orange-400'>SERVIÇOS</span>
+                <span className='hover:scale-125 hover:text-orange-400'>CONTATOS</span>
             </nav>
         </div>
     )
