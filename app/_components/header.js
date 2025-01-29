@@ -8,10 +8,10 @@ export default function Header() {
                 <span className='text-sm text-[#121212] opacity-60 text-centers'>Prof. Cosme Teixeira Silva - Jan/2025</span>
             </div>
 
-            <nav className='text-gray-600 flex space-x-8 text-[0.6rem] sm:text-sm p-3 sm:p-0'>
+            <nav className='text-gray-600 flex space-x-8 text-[0.6rem] sm:text-sm p-4 sm:p-2'>
                 <span className='hover:scale-125 hover:text-orange-400'>HOME</span>
                 <span className='hover:scale-125 hover:text-orange-400'>SERVIÇOS</span>
-                <span className='hover:scale-125 hover:text-orange-400'>CONTATOS</span>
+                <span className='hover:scale-125 hover:text-orange-400 pr-5'>CONTATOS</span>
             </nav>
         </div>
     )
