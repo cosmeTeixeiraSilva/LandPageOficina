@@ -15,7 +15,7 @@ export default function Home() {
       <Botoes />
       <Hero />
       <br></br>
-      <IMCCalculadora />
+      
 
     </div>
   );
