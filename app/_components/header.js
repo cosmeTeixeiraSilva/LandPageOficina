@@ -1,4 +1,5 @@
 import React from 'react'
+import Span from './span'
 
 export default function Header() {
     return (
@@ -9,9 +10,10 @@ export default function Header() {
             </div>
 
             <nav className='text-gray-600 flex space-x-8 text-[0.6rem] sm:text-sm p-4 sm:p-2'>
-                <span className='hover:scale-125 hover:text-orange-400'>HOME</span>
-                <span className='hover:scale-125 hover:text-orange-400'>SERVIÇOS</span>
-                <span className='hover:scale-125 hover:text-orange-400 pr-5'>CONTATOS</span>
+                {/*Usando componentes Reutilizáveis */}
+                <Span texto={"HOME"} />
+                <Span texto={"SERVIÇO"} />
+                <Span texto={"CONTATOS"} />
             </nav>
         </div>
     )
