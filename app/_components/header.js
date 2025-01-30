@@ -14,6 +14,7 @@ export default function Header() {
                 <Span texto={"HOME"} />
                 <Span texto={"SERVIÇO"} />
                 <Span texto={"CONTATOS"} />
+                <Span texto={"REDES SOCIAIS"} />
             </nav>
         </div>
     )
