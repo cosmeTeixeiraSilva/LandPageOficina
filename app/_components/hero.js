@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Hero() {
     return (
-        <div className="w-full h-64 relative mx-auto">
+        <section id="hero" className="w-full h-64 relative mx-auto">
 
             <Image
                 src="/oficina.jpg"
@@ -28,6 +28,6 @@ export default function Hero() {
             </div>
 
 
-        </div>
+        </section>
     )
 }

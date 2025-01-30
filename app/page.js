@@ -4,6 +4,7 @@ import Botoes from "./_components/botoes";
 import Hero from "./_components/hero";
 import Secao from "./_components/secao";
 import IMCCalculadora from "./_components/IMCCalculadora";
+import Hero2 from "./_components/hero2";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       <Botoes />
       <Hero />
       <br></br>
-      
+      <Hero2 />
 
     </div>
   );
