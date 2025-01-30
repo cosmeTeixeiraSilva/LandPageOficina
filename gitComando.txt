@@ -8,3 +8,21 @@ git add . //add arquivos para commit deve ser executado dentro da pagina
 git status //status do commit
 git commit -m "msg de Commit" //commitando 
 git push //Enviando as alterações 
+
+# 1. Verificar o status dos arquivos
+git status
+
+# 2. Adicionar arquivos ao staging
+git add .  # ou git add nome-do-arquivo
+
+# 3. Criar o commit
+git commit -m "Mensagem explicativa sobre as mudanças"
+
+# 4. (opcional) Verificar o histórico de commits
+git log -n 5 --pretty=format:"%h - %an, %ad : %s" --date=short
+
+# 5. Enviar os commits para o repositório remoto
+git push origin main
+
+# 6. (opcional) Verificar o status novamente
+git status
