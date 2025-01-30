@@ -7,7 +7,7 @@ import IMCCalculadora from "./_components/IMCCalculadora";
 
 export default function Home() {
   return (
-    <div className="w-[90vw] bg-white mx-auto">
+    <div className="w-screen sm:w-[90vw] bg-white mx-auto">
       {/*Componente 1 - Header */}
       <Header />
       <hr></hr>
@@ -15,7 +15,7 @@ export default function Home() {
       <Botoes />
       <Hero />
       <br></br>
-      <IMCCalculadora />
+      
 
     </div>
   );
