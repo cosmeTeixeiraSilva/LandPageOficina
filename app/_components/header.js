@@ -11,7 +11,7 @@ export default function Header() {
                     alt="Imagem oficina Senac"
                     width={50}
                     height={60}
-                    className='z-0 w-[5rem] h-[5rem] bg-white rounded-full mr-2'
+                    className='z-0 w-[5rem] h-[5rem] bg-white rounded mr-2'
                 />
                 <div className='flex flex-col text-white items-center sm:items-start'><h1 className=' text-whitefont-extrabold text-xl px-6 sm:px-0 '>Motors Senac Lavras</h1>
                     <h3 className='text-slate-200 hidden sm:inline'>Prof. Cosme Teixeira Silva - Senac Lavras</h3>
