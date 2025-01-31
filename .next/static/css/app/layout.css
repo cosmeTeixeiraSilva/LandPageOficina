@@ -798,6 +798,12 @@ video {
 .font-extrabold {
   font-weight: 800;
 }
+.tracking-\[\] {
+  letter-spacing: ;
+}
+.tracking-\[0\.2rem\] {
+  letter-spacing: 0.2rem;
+}
 .text-\[\#454545\] {
   --tw-text-opacity: 1;
   color: rgb(69 69 69 / var(--tw-text-opacity, 1));
