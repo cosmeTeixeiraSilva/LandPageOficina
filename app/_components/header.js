@@ -17,7 +17,7 @@ export default function Header() {
                     <h3 className='text-blue-500 text-sm hidden sm:inline'>Prof. Cosme </h3>
                 </div>
             </div>
-            <nav id="menu" className='text-orange-500 flex space-x-8 text-[0.6rem] font-bold   sm:p-2 '>
+            <nav id="menu" className='text-orange-500 flex space-x-8 text-[0.6rem] font-bold   sm:p-2 hover:cursor-pointer'>
                 {/*Usando componentes Reutilizáveis */}
                 <ScrollLinkComponente to="h" smooth={true} duration={500} texto={"HOME"} />
                 <ScrollLinkComponente to="hero" smooth={true} duration={500} texto={"SERVIÇOS"} />
