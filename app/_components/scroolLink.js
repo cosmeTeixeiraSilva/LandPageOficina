@@ -5,8 +5,9 @@ export default function ScrollLinkComponente({ to, smooth, duration, texto }) {
     return (
         <ScrollLink to={to}
             smooth={smooth}
-            duration={duration} className='hover:scale-125 hover:text-orange-400'>
+            duration={duration} className='hover:scale-110 hover:text-orange-400 text-sm sm:text-md'>
             {texto}
+
         </ScrollLink>
     )
 }
