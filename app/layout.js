@@ -4,7 +4,7 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "Dev Motors",
+  title: "Motors Senac Lavras/MG",
   description: "cosme.teixeira@gmail.com",
 };
 
