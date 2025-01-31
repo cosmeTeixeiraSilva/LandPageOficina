@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Hero2({ foto, id, alt }) {
     return (
-        <section id={id} className="w-full h-64 relative mx-auto">
+        <section id={id} className="h-64 relative ">
 
             <Image
                 src={foto}
