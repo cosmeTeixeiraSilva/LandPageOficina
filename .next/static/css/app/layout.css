@@ -795,6 +795,9 @@ video {
 .font-semibold {
   font-weight: 600;
 }
+.font-extrabold {
+  font-weight: 800;
+}
 .text-\[\#454545\] {
   --tw-text-opacity: 1;
   color: rgb(69 69 69 / var(--tw-text-opacity, 1));
@@ -828,6 +831,10 @@ video {
 }
 .text-\[rem\] {
   color: rem;
+}
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
 }
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
