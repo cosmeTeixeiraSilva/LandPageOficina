@@ -586,6 +586,12 @@ video {
 .w-screen {
   width: 100vw;
 }
+.w-max {
+  width: max-content;
+}
+.w-1 {
+  width: 0.25rem;
+}
 .max-w-md {
   max-width: 28rem;
 }
@@ -761,6 +767,15 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.text-\[\] {
+  color: ;
+}
+.text-\[\#\] {
+  color: #;
+}
+.text-\[\#121212a1\] {
+  color: #121212a1;
 }
 .opacity-60 {
   opacity: 0.6;

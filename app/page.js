@@ -13,6 +13,13 @@ export default function Home() {
       {/*Componente 1 - Header */}
       <Header />
       <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <hr></hr><hr></hr><hr></hr><hr></hr>
       {/*Componente 2 - Botoes */}
       <Botoes />
       <Hero />
