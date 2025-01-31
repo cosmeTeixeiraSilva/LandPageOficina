@@ -754,6 +754,9 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-\[1rem\] {
+  font-size: 1rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -790,6 +793,12 @@ video {
 .text-red-800 {
   --tw-text-opacity: 1;
   color: rgb(153 27 27 / var(--tw-text-opacity, 1));
+}
+.text-\[0\.rem\] {
+  color: 0.rem;
+}
+.text-\[rem\] {
+  color: rem;
 }
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
