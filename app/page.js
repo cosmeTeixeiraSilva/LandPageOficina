@@ -5,18 +5,21 @@ import Hero from "./_components/hero";
 import Secao from "./_components/secao";
 import IMCCalculadora from "./_components/IMCCalculadora";
 import Hero2 from "./_components/hero2";
+import Contatos from "./_components/contatos";
 
 export default function Home() {
   return (
-    <div className="w-screen sm:w-[90vw] bg-white mx-auto">
+    <div className=" space-y-1 w-screen sm:w-[90vw] bg-white mx-auto">
       {/*Componente 1 - Header */}
       <Header />
       <hr></hr>
       {/*Componente 2 - Botoes */}
       <Botoes />
       <Hero />
-      <br></br>
-      <Hero2 />
+      <Hero2 foto="/foto2.jpg" id="hero2" alt="foto2" />
+      <Hero2 foto="/foto3.jpg" id="hero3" alt="foto3" />
+      <Hero2 foto="/foto4.jpg" id="hero4" alt="foto4" />
+      <Contatos />
 
     </div>
   );
