@@ -4,8 +4,8 @@ import ScrollLinkComponente from './scroolLink'
 import Image from 'next/image'
 export default function Header() {
     return (
-        <section id="top" className='flex flex-col sm:flex-row items-center sm:items-center sm:justify-between justify-center   top-0 z-50  w-full mx-auto space-y-2'>
-            <div className='flex items-center sm:justify-start justify-between w-full'>
+        <section id="top" className='flex flex-col sm:flex-row items-center sm:items-center sm:justify-between justify-start   top-0 z-50  w-full mx-auto space-y-2'>
+            <div className='flex items-center flex-col sm:flex-row justify-center  sm:justify-start w-full '>
                 <Image
                     src="/senac.png"
                     alt="Imagem oficina Senac"
@@ -13,7 +13,7 @@ export default function Header() {
                     height={60}
                     className='z-0 w-[5rem] h-[5rem]'
                 />
-                <div className='flex flex-col text-white items-center sm:items-start'><h1 className=' text-whitefont-extrabold text-xl px-6 sm:px-0'>Motors Senac Lavras</h1>
+                <div className='flex flex-col text-white items-center sm:items-start'><h1 className=' text-whitefont-extrabold text-xl px-6 sm:px-0 '>Motors Senac Lavras</h1>
                     <h3 className='text-slate-200 hidden sm:inline'>Prof. Cosme Teixeira Silva - Senac Lavras</h3>
                 </div>
             </div>
