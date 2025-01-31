@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body
-        className="bg-[#3f3f3f] w-screen w-max-[1280px] mx-auto"
+        className="bg-[#3f3f3f] w-screen  mx-auto"
       >
         {children}
       </body>

@@ -886,6 +886,10 @@ body {
     width: 100%;
   }
 
+  .sm\:w-\[90vw\] {
+    width: 90vw;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
