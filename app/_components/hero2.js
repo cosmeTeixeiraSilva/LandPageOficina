@@ -17,12 +17,12 @@ export default function Hero2({ foto, id, alt }) {
             />
 
             {/* Texto sobreposto */}
-            <div className="relative inset-0  z-30 text-center">
-                <span className=" font-bold text-sm  sm:text-xl mb-2 text-black  rounded absolute left-2 mt-4">
-                    Projetos
+            <div className="relative inset-0  z-30 text-center space-y-2">
+                <span className=" font-bold text-sm  sm:text-xl mb-2 text-black  rounded absolute left-2 mt-4 bg-white p-2">
+                    Deixe...
                 </span>
-                <span className="font-semibold text-sm sm:text-xl text-black  rounded absolute top-14 left-2 ">
-                    Economia de Combustível
+                <span className="font-semibold text-sm sm:text-xl text-black  rounded absolute top-14 left-2 bg-white p-2">
+                    seu Carro em boas mãos.
                 </span>
 
             </div>
