@@ -9,17 +9,10 @@ import Contatos from "./_components/contatos";
 
 export default function Home() {
   return (
-    <div className=" space-y-1 w-screen sm:w-[90vw] bg-white mx-auto">
+    <div className=" space-y-1  bg-white w-[90vw] mx-auto">
       {/*Componente 1 - Header */}
       <Header />
-      <hr></hr>
-      <hr></hr>
-      <hr></hr>
-      <hr></hr>
-      <hr></hr>
-      <hr></hr>
-      <hr></hr>
-      <hr></hr><hr></hr><hr></hr><hr></hr>
+   
       {/*Componente 2 - Botoes */}
       <Botoes />
       <Hero />
