@@ -17,7 +17,7 @@ export default function Hero() {
             />
 
             {/* Texto sobreposto */}
-            <div className="relative inset-0  z-50 text-center">
+            <div className="relative inset-0  z-30 text-center">
                 <span className=" font-bold text-sm  sm:text-xl mb-2 text-slate-200 bg-green-700 p-2 rounded absolute left-2 mt-4">
                     Manutenção Automotiva
                 </span>
