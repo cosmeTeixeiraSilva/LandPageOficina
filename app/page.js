@@ -7,7 +7,7 @@ import Contatos from "./_components/contatos";
 
 export default function Home() {
   return (
-    <div className=" space-y-1  bg-black w-full sm:w-[90vw] mx-auto">
+    <div className=" space-y-1  bg-black w-full sm:w-[90vw] mx-auto  border-black border-2 ">
       {/*Componente 1 - Header */}
       <Header />
       <hr className="text-[#454545]" />

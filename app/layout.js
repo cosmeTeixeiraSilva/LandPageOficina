@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body
-        className="bg-[#3f3f3f] w-screen  mx-auto tracking-[0.2rem]"
+        className="bg-slate-200 w-screen  mx-auto tracking-[0.2rem] "
       >
         {children}
       </body>
