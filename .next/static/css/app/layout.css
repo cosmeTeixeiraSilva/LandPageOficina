@@ -592,6 +592,9 @@ video {
 .h-\[5rem\] {
   height: 5rem;
 }
+.h-\[4rem\] {
+  height: 4rem;
+}
 .w-1\/2 {
   width: 50%;
 }
@@ -609,6 +612,9 @@ video {
 }
 .w-\[5rem\] {
   width: 5rem;
+}
+.w-\[4rem\] {
+  width: 4rem;
 }
 .max-w-md {
   max-width: 28rem;
