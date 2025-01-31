@@ -14,7 +14,7 @@ export default function Header() {
                     className='z-0 w-[4rem] h-[4rem] bg-white rounded mr-2'
                 />
                 <div className='flex flex-col text-white items-center sm:items-start'><h1 className=' text-orange-500 font-extrabold text-md px-6 sm:px-0 '>Motors Senac Lavras</h1>
-                    <h3 className='text-blue-500 text-sm hidden sm:inline'>Prof. Cosme </h3>
+                    <h3 className='text-white text-sm hidden sm:inline'>Prof. Cosme </h3>
                 </div>
             </div>
             <nav id="menu" className='text-orange-500 flex space-x-8 text-[0.6rem] font-bold   sm:p-2 hover:cursor-pointer'>
