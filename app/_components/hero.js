@@ -18,10 +18,10 @@ export default function Hero() {
 
             {/* Texto sobreposto */}
             <div className="relative inset-0  z-30 text-center">
-                <span className=" font-bold text-sm  sm:text-xl mb-2 text-slate-200 bg-green-700 p-2 rounded absolute left-2 mt-4">
+                <span className=" font-bold text-sm  sm:text-xl mb-2 text-slate-200  p-2 rounded absolute left-2 mt-4">
                     Manutenção Automotiva
                 </span>
-                <span className="font-semibold text-sm sm:text-xl text-slate-200 bg-green-700 p-2 rounded absolute top-14 left-2 mt-4">
+                <span className="font-semibold text-sm sm:text-xl text-slate-200p-2 rounded absolute top-14 left-2 mt-4">
                     Qualidade para seu carro
                 </span>
                 <a href="#" className='absolute right-4  hover:opacity-80 bg-green-700 flex  space-x-2 p-2 rounded items-center mt-48 ' ><FaWhatsapp size={20} className='text-white' />   <span className="text-sm text-white sm:text-xl ">Fale com nosso atendente</span></a>
