@@ -1,9 +1,7 @@
-import Image from "next/image";
+
 import Header from "./_components/header";
 import Botoes from "./_components/botoes";
 import Hero from "./_components/hero";
-import Secao from "./_components/secao";
-import IMCCalculadora from "./_components/IMCCalculadora";
 import Hero2 from "./_components/hero2";
 import Contatos from "./_components/contatos";
 

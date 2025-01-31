@@ -1,8 +1,5 @@
 
-import "./globals.css";
-
-
-
+import "./globals.css"
 export const metadata = {
   title: "Motors Senac Lavras/MG",
   description: "cosme.teixeira@gmail.com",
